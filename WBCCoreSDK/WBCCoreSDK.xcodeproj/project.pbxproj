@@ -8,30 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		5209ACD965A994B3982C46DA /* Pods_WBCCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C336943B8DEF8D9EECB29A0 /* Pods_WBCCoreSDK.framework */; };
-		78F83E8F224A2F65000877E0 /* WBCCoreSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78F83E85224A2F64000877E0 /* WBCCoreSDK.framework */; };
-		78F83E94224A2F65000877E0 /* WBCCoreSDKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F83E93224A2F65000877E0 /* WBCCoreSDKTests.swift */; };
 		78F83E96224A2F65000877E0 /* WBCCoreSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F83E88224A2F64000877E0 /* WBCCoreSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		78F83EA3224A3491000877E0 /* DummyNetworkServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F83EA2224A3491000877E0 /* DummyNetworkServiceTest.swift */; };
-		AA6D00982D7AAB3E17B43593 /* Pods_WBCCoreSDKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93344B00FA0EEACE0ADC271E /* Pods_WBCCoreSDKTests.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		78F83E90224A2F65000877E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 78F83E7C224A2F64000877E0 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 78F83E84224A2F64000877E0;
-			remoteInfo = WBCCoreSDK;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		78F83E85224A2F64000877E0 /* WBCCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WBCCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78F83E88224A2F64000877E0 /* WBCCoreSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBCCoreSDK.h; sourceTree = "<group>"; };
 		78F83E89224A2F64000877E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78F83E8E224A2F65000877E0 /* WBCCoreSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBCCoreSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		78F83E93224A2F65000877E0 /* WBCCoreSDKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WBCCoreSDKTests.swift; sourceTree = "<group>"; };
-		78F83E95224A2F65000877E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78F83EA2224A3491000877E0 /* DummyNetworkServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyNetworkServiceTest.swift; sourceTree = "<group>"; };
 		7C336943B8DEF8D9EECB29A0 /* Pods_WBCCoreSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBCCoreSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		93344B00FA0EEACE0ADC271E /* Pods_WBCCoreSDKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBCCoreSDKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,15 +31,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5209ACD965A994B3982C46DA /* Pods_WBCCoreSDK.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		78F83E8B224A2F64000877E0 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78F83E8F224A2F65000877E0 /* WBCCoreSDK.framework in Frameworks */,
-				AA6D00982D7AAB3E17B43593 /* Pods_WBCCoreSDKTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				78F83E87224A2F64000877E0 /* WBCCoreSDK */,
-				78F83E92224A2F65000877E0 /* WBCCoreSDKTests */,
 				78F83E86224A2F64000877E0 /* Products */,
 				20D3968139A558B57B43511E /* Pods */,
 				57BE4E7932ED79C6EA10EF3E /* Frameworks */,
@@ -97,7 +71,6 @@
 			isa = PBXGroup;
 			children = (
 				78F83E85224A2F64000877E0 /* WBCCoreSDK.framework */,
-				78F83E8E224A2F65000877E0 /* WBCCoreSDKTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,15 +85,6 @@
 				78F83E89224A2F64000877E0 /* Info.plist */,
 			);
 			path = WBCCoreSDK;
-			sourceTree = "<group>";
-		};
-		78F83E92224A2F65000877E0 /* WBCCoreSDKTests */ = {
-			isa = PBXGroup;
-			children = (
-				78F83E93224A2F65000877E0 /* WBCCoreSDKTests.swift */,
-				78F83E95224A2F65000877E0 /* Info.plist */,
-			);
-			path = WBCCoreSDKTests;
 			sourceTree = "<group>";
 		};
 		78F83E9F224A3429000877E0 /* Network Services */ = {
@@ -178,25 +142,6 @@
 			productReference = 78F83E85224A2F64000877E0 /* WBCCoreSDK.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		78F83E8D224A2F64000877E0 /* WBCCoreSDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 78F83E9C224A2F65000877E0 /* Build configuration list for PBXNativeTarget "WBCCoreSDKTests" */;
-			buildPhases = (
-				4734624AA2A16F8565EC9380 /* [CP] Check Pods Manifest.lock */,
-				78F83E8A224A2F64000877E0 /* Sources */,
-				78F83E8B224A2F64000877E0 /* Frameworks */,
-				78F83E8C224A2F64000877E0 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				78F83E91224A2F65000877E0 /* PBXTargetDependency */,
-			);
-			name = WBCCoreSDKTests;
-			productName = WBCCoreSDKTests;
-			productReference = 78F83E8E224A2F65000877E0 /* WBCCoreSDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -210,9 +155,6 @@
 					78F83E84224A2F64000877E0 = {
 						CreatedOnToolsVersion = 10.0;
 						LastSwiftMigration = 1000;
-					};
-					78F83E8D224A2F64000877E0 = {
-						CreatedOnToolsVersion = 10.0;
 					};
 				};
 			};
@@ -229,7 +171,6 @@
 			projectRoot = "";
 			targets = (
 				78F83E84224A2F64000877E0 /* WBCCoreSDK */,
-				78F83E8D224A2F64000877E0 /* WBCCoreSDKTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,38 +183,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78F83E8C224A2F64000877E0 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4734624AA2A16F8565EC9380 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-WBCCoreSDKTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5084FF80BC845D1E2CCD7225 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -307,23 +219,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		78F83E8A224A2F64000877E0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				78F83E94224A2F65000877E0 /* WBCCoreSDKTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		78F83E91224A2F65000877E0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 78F83E84224A2F64000877E0 /* WBCCoreSDK */;
-			targetProxy = 78F83E90224A2F65000877E0 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		78F83E97224A2F65000877E0 /* Debug */ = {
@@ -504,46 +400,6 @@
 			};
 			name = Release;
 		};
-		78F83E9D224A2F65000877E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCA95CDA38DB4C21051B4AEE /* Pods-WBCCoreSDKTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BU6KAL7MDX;
-				INFOPLIST_FILE = WBCCoreSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wetek.WBCCoreSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		78F83E9E224A2F65000877E0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D094085282261CF16479CDC6 /* Pods-WBCCoreSDKTests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = BU6KAL7MDX;
-				INFOPLIST_FILE = WBCCoreSDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.wetek.WBCCoreSDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -561,15 +417,6 @@
 			buildConfigurations = (
 				78F83E9A224A2F65000877E0 /* Debug */,
 				78F83E9B224A2F65000877E0 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		78F83E9C224A2F65000877E0 /* Build configuration list for PBXNativeTarget "WBCCoreSDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				78F83E9D224A2F65000877E0 /* Debug */,
-				78F83E9E224A2F65000877E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -7,12 +7,5 @@ target 'WBCCoreSDK' do
 
   # Pods for WBCCoreSDK
   pod 'Alamofire'
-   
-  target 'WBCCoreSDKTests' do
-    inherit! :search_paths
-    # Pods for testing
-    
-
-  end
 
 end
